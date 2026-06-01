@@ -9,6 +9,20 @@ selected decision records, and representative code excerpts without exposing the
 turnkey application, deployment configuration, private integration details, or
 commercially valuable implementation surface.
 
+## How To Read This Repo
+
+Start here if you are evaluating Justin Wilds or Grocery technically:
+
+1. Read [WHAT_THIS_PROVES.md](WHAT_THIS_PROVES.md) for the short evaluator view.
+2. Read [ARCHITECTURE.md](ARCHITECTURE.md) for the system shape and layer boundaries.
+3. Read [ADR_DIGEST.md](ADR_DIGEST.md) for decision discipline.
+4. Read [SECURITY_AND_DATA.md](SECURITY_AND_DATA.md) for the data safety posture.
+5. Read [OPERATIONS.md](OPERATIONS.md) for the operator workflows driving the design.
+6. Read [CODE_EXCERPTS.md](CODE_EXCERPTS.md) and browse `code-samples/` for
+   implementation style.
+7. Read [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md) before asking why production
+   internals are not here.
+
 ## What Grocery Demonstrates
 
 Grocery models the messy middle of enterprise food-service operations:
@@ -42,12 +56,15 @@ handlers. External service clients live behind application interfaces.
 
 | File | Purpose |
 | --- | --- |
+| `WHAT_THIS_PROVES.md` | Short evaluator guide: what the repo is evidence for |
 | `ARCHITECTURE.md` | System shape, layer boundaries, workflow map |
 | `ADR_DIGEST.md` | Selected architecture decisions and why they matter |
 | `OPERATIONS.md` | Operator workflows Grocery is designed around |
 | `SECURITY_AND_DATA.md` | Security, tenancy, audit, source-precedence posture |
 | `CODE_EXCERPTS.md` | Guide to the included representative code samples |
 | `code-samples/` | Sanitized excerpts showing style and implementation judgment |
+| `PUBLIC_BOUNDARY.md` | What this proof repo intentionally excludes |
+| `PROOF_REPO_STANDARD.md` | Reusable standard for Wilds public proof repos |
 
 ## What Is Deliberately Omitted
 
