@@ -1,11 +1,11 @@
 # What This Proves
 
-This repo exists for a technical evaluator who wants to understand what Justin
-Wilds can build without receiving the private Grocery production source.
+This repo exists for a technical evaluator who wants to understand the
+engineering behind Grocery without receiving the private production source.
 
 ## The Short Version
 
-Grocery proves that Justin can model a domain that most commercial food-service
+Grocery demonstrates a domain model that most commercial food-service
 software handles poorly:
 
 - operations-grounded domain design (pull-sheet walk order, terminal events,

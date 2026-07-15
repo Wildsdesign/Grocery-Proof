@@ -11,7 +11,7 @@ commercially valuable implementation surface.
 
 ## How To Read This Repo
 
-Start here if you are evaluating Justin Wilds or Grocery technically:
+Start here if you are evaluating Grocery technically:
 
 1. Read [WHAT_THIS_PROVES.md](WHAT_THIS_PROVES.md) for the short evaluator view.
 2. Read [ARCHITECTURE.md](ARCHITECTURE.md) for the system shape and layer boundaries.

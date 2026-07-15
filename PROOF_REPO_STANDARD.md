@@ -15,7 +15,7 @@ discipline, and public/private boundary discipline.
 Every proof repo should answer five questions quickly:
 
 1. What is this product or system?
-2. What does this repo prove about Justin's work?
+2. What does this repo prove about the engineering behind it?
 3. What architecture or operating decisions matter?
 4. What is safe to show publicly?
 5. What is intentionally withheld?
@@ -81,7 +81,7 @@ A proof repo is ready when:
 1. A cold reader understands the product in under one minute.
 2. A technical evaluator can find architecture, ADR, security, and boundary
    material without guessing.
-3. The repo makes a clear argument for what Justin can build.
+3. The repo makes a clear argument for the product and engineering behind it.
 4. The repo cannot be mistaken for production source.
 5. The public/private boundary is repeated in the README, `PUBLIC_BOUNDARY.md`,
    and `AGENTS.md`.
