@@ -3,7 +3,7 @@
 Curated technical proof artifact for Grocery, a Wilds, Inc. food-service
 operations platform.
 
-This repository is intentionally **not** the production source tree. It is a
+This repository is intentionally **not** the private source tree. It is a
 public-reviewable artifact that shows product thinking, system architecture,
 selected decision records, and representative code excerpts without exposing the
 turnkey application, deployment configuration, private integration details, or
@@ -39,7 +39,7 @@ actually happens, not force operators to reshape the work around the software.
 
 ## Technical Shape
 
-The production system follows .NET Clean Architecture:
+The private codebase follows .NET Clean Architecture:
 
 ```text
 Grocery.Domain          domain entities and invariants
@@ -92,4 +92,4 @@ the product.
 
 ## Status
 
-Curated proof artifact. Production Grocery remains private.
+Curated proof artifact. The Grocery source remains private.
