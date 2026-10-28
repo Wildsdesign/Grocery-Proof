@@ -50,6 +50,6 @@ Safe excerpts do not include:
 
 ## Why Not Publish the Whole App?
 
-Grocery has real commercial value. A public proof artifact should help a
-technical evaluator trust the work without handing over a turnkey competitor.
+A public proof artifact should help a technical evaluator trust the work
+without exposing the private implementation.
 See [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md) for the full boundary.

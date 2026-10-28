@@ -6,8 +6,8 @@ operations platform.
 This repository is intentionally **not** the private source tree. It is a
 public-reviewable artifact that shows product thinking, system architecture,
 selected decision records, and representative code excerpts without exposing the
-turnkey application, deployment configuration, private integration details, or
-commercially valuable implementation surface.
+private application, deployment configuration, private integration details, or
+private implementation surface.
 
 ## How To Read This Repo
 
@@ -31,7 +31,7 @@ Grocery models the messy middle of enterprise food-service operations:
 - inventory, storage locations, receiving, and vendor item variance
 - nutrition and allergen source precedence
 - pull-sheet execution in physical kitchen walk order
-- integration boundaries with an existing host platform
+- integration boundaries with an external platform
 - auditability, facility isolation, and operator-driven decision points
 
 The core product idea is simple: operational software should fit how the work

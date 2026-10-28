@@ -1,6 +1,6 @@
 # Public Boundary
 
-Grocery has real market value. This proof repo is intentionally strategic and
+This proof repo is intentionally strategic and
 architectural rather than cloneable.
 
 ## Safe To Show
@@ -26,5 +26,4 @@ architectural rather than cloneable.
 
 ## Why the Boundary Is Here
 
-Grocery solves problems that most food-service software handles poorly. The
-implementation is the asset. The proof shows the thinking behind it.
+The implementation stays private. The proof shows the thinking behind it.

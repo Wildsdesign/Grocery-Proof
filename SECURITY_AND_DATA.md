@@ -1,7 +1,8 @@
 # Security and Data Posture
 
 This proof repo intentionally omits implementation details that would make the
-private production product easy to clone or attack. The production system follows
+private
+codebase easy to clone or attack. The private codebase follows
 security-minded defaults appropriate for enterprise food-service operations.
 
 ## Data Boundaries
@@ -14,7 +15,7 @@ security-minded defaults appropriate for enterprise food-service operations.
 
 ## Tenancy and Facility Context
 
-The production system treats facility context as a server-side concern. Client
+The private codebase treats facility context as a server-side concern. Client
 input is not trusted as the source of tenant authority.
 
 Every facility-scoped query must be constrained by the authenticated facility

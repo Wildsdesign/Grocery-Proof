@@ -25,7 +25,7 @@ Every proof repo should answer five questions quickly:
 | File | Purpose |
 | --- | --- |
 | `README.md` | Entry point, evaluator path, proof contents, status |
-| `WHAT_THIS_PROVES.md` | Short proof argument for a recruiter, founder, or technical evaluator |
+| `WHAT_THIS_PROVES.md` | Short proof argument for a technical evaluator |
 | `PUBLIC_BOUNDARY.md` | Explicit safe-to-show and not-safe-to-show boundary |
 | Architecture doc | Product-specific architecture shape |
 | ADR or decision digest | Sanitized decisions with rationale |
@@ -51,7 +51,7 @@ Avoid:
 - database schemas unless deliberately sanitized
 - secrets, resource names, private URLs, environment files
 - customer, facility, employee, patient, or transaction data
-- implementation internals that create commercial risk
+- implementation internals that are not public
 - inflated claims that are not visible in the repo
 
 ## Code Excerpt Rules

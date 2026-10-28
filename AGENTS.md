@@ -18,7 +18,7 @@ The required files for a complete Wilds proof repo are:
 | File | Purpose |
 | --- | --- |
 | `README.md` | Entry point, evaluator path, proof contents, status |
-| `WHAT_THIS_PROVES.md` | Short proof argument for a recruiter or technical evaluator |
+| `WHAT_THIS_PROVES.md` | Short proof argument for a technical evaluator |
 | `PUBLIC_BOUNDARY.md` | Explicit safe-to-show and not-safe-to-show boundary |
 | `ARCHITECTURE.md` | Product-specific system shape |
 | `ADR_DIGEST.md` | Sanitized decisions with rationale |
@@ -34,7 +34,7 @@ The required files for a complete Wilds proof repo are:
   names, or real fixture data.
 - Do not add private partner names or integration contracts.
 - Do not add enough schema, migration, or adapter detail to recreate the
-  production product.
+  private codebase.
 - Keep code samples excerpted, sanitized, and non-runnable unless explicitly
   approved otherwise.
 - The public/private boundary is defined in `PUBLIC_BOUNDARY.md`. It must be

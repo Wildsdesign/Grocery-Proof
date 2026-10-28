@@ -70,12 +70,12 @@ execution, and host-platform menu identity are not the same problem.
 
 ## Integration Posture
 
-The production product includes a private integration boundary with an existing
-enterprise food-service platform. This proof repo intentionally describes that
+The private codebase includes an integration boundary with an external
+platform. This proof repo intentionally describes that
 boundary at the architectural level only:
 
 - local system owns the operator workflow and production event truth
-- host platform remains the downstream consumer for selected fields
+- the external platform remains the downstream consumer for selected fields
 - failed external pushes do not corrupt local saves
 - source precedence prevents lower-authority data from overwriting authored data
 

@@ -5,8 +5,7 @@ engineering behind Grocery without receiving the private production source.
 
 ## The Short Version
 
-Grocery demonstrates a domain model that most commercial food-service
-software handles poorly:
+Grocery demonstrates a domain model for food-service operations:
 
 - operations-grounded domain design (pull-sheet walk order, terminal events,
   kitchen production as a real bounded context)
@@ -49,7 +48,7 @@ the excerpts explain decisions, not mechanics.
 
 This repo shows enough to evaluate the work while excluding the private
 integration contracts, schema, deployment artifacts, and implementation internals
-that give Grocery its commercial value.
+that stay private.
 
 ## What This Does Not Prove
 
@@ -57,5 +56,4 @@ This repo does not prove every implementation detail of Grocery. It is not a
 runnable clone and should not become one.
 
 For deeper evaluation, use this repo as a public architecture and operating
-artifact, then request a guided technical walkthrough if a private review is
-appropriate.
+artifact.
